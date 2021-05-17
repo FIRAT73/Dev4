@@ -1,0 +1,338 @@
+ 
+body{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+
+.menubar{
+    height:60px;
+    /*
+    border: 1px dashed red;
+    background-color:rgb(170, 61, 116);
+	*/
+    
+}
+
+.menuIsim{
+    width:250px;
+    height: 50px;
+    text-align:center;
+    margin: 5px;
+    /*
+    border: 1px dashed red;
+    background-color:blue;
+    */
+}
+
+.alanlar{
+    width:1050px;
+    float:right;
+    margin-top: -65px;
+    height: 50px;
+
+    /*
+    border: 1px dashed red;
+    background-color: cyan;
+    */
+}
+
+.alanlar form{
+    width: 500px;
+    margin-top: 10px;
+    
+    /*
+    border: 1px dashed red;
+    background-color:yellow;
+    */
+}
+
+.alanlar form button{
+    margin-left: -40px;
+    height: 36px;
+    
+
+}
+
+.alanlar form input{
+    width: 475px;
+    height: 30px;
+    
+    
+
+}
+
+.alanlar ul{
+    float: right;
+    margin-top: -37px;
+    height: 35px;
+    
+    /*
+    border: 1px dashed red;
+    background-color:sienna;
+    */
+}
+
+.alanlar ul li{
+    list-style-type: none;
+    display: inline; /*Maddeleri yan yana getirdik*/
+    padding-bottom: 10px;
+    margin: 17px;
+    font-size: 20px;
+    
+
+    
+    /*
+    border: 1px dashed red;
+    background-color:violet;
+    */
+}
+
+.alanlar ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.alanlar ul li:hover{
+    border-bottom: 2px solid red;
+    
+}
+/*Product Area******************************************************************/
+.tabloÜrünler td{
+	display: inline-block;
+	margin: 0 60px 20px 60px;
+	/*
+	border: 1px solid red;
+	*/
+}
+.tabloÜrünler td img{
+	width: 320px;
+	height: 250px;
+}
+
+.tabloÜrünler td p{
+	text-align: center;
+}
+.tabloÜrünler td label{
+	margin-left: 100px;
+}
+
+
+
+
+/*Footer Alanı---------------------------------------------------------------------------------*/
+
+.footer-area{
+	background: rgb(255, 255, 255);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+    /*
+    border: 1px solid red;
+	*/
+    
+}
+
+.footer-area .footer-left,
+.footer-area .footer-center,
+.footer-area .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer-area .footer-left{
+	width: 40%;
+}
+
+.footer-area h3{
+	color:  #000000;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-area .footer-links{
+	color:  #000000;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+
+.footer-area .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+    font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+.footer-area .footer-links a:hover{
+    color: red;
+    border-bottom: 1px solid black;
+}
+
+.footer-area .footer-company-name{
+	color:  rgb(0, 0, 0);
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-area .footer-center{
+	width: 35%;
+}
+
+.footer-area .footer-center i{
+	background-color:  #000000;
+	color: #ff0000;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-area .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+.footer-area .footer-center i:hover{
+    color: #000000;
+    background-color:  #ffffff;
+}
+
+.footer-area .footer-center p{
+	display: inline-block;
+	color: #000000;
+    font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-area .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-area .footer-center p a{
+	color:  rgb(0, 0, 0);
+	text-decoration: none;;
+}
+.footer-area .footer-center p a:hover{
+    color:  rgb(255, 0, 0);
+    border-bottom: 1px solid red;
+}
+/*we added lines between links*/
+.footer-area .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-area .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-area .footer-right{
+	width: 20%;
+}
+
+.footer-area .footer-company-about{
+	line-height: 20px;
+	color:  #000000;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-area .footer-company-about span{
+	display: block;
+	color:  #000000;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-area .footer-icons{
+	margin-top: 35px;
+}
+
+.footer-area .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #000000;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ff0000;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+.footer-area .footer-icons #linkedin:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+.footer-area .footer-icons #instagram:hover{
+    background-color: rgb(231, 83, 120);
+    color: white;
+    border-radius: 10px;
+}
+
+.footer-area .footer-icons #twitter:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(10, 125, 233);
+    border-radius: 10px;
+}
+
+.footer-area .footer-icons #github:hover{
+    background-color: rgb(125, 105, 240);
+    color: white;
+    border-radius: 10px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-area{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-area .footer-left,
+	.footer-area .footer-center,
+	.footer-area .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-area .footer-center i{
+		margin-left: 0;
+	}
+
+}
